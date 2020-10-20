@@ -1,0 +1,28 @@
+{
+  "version": 2,
+  "dgSpecHash": "GRXBpIGdFO6jOrBjcLH2gBc6uh6G+7qb2WJOl0zKJ/He6b/4+GMgyUAcOwHJ2iWAaNXoOQcLKua4kJTK9PwtaA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\jlane\\Desktop\\Assignment4\\Assignment4\\Assignment4.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\jlane\\.nuget\\packages\\mstest.testadapter\\2.0.0\\mstest.testadapter.2.0.0.nupkg.sha512",
+    "C:\\Users\\jlane\\.nuget\\packages\\mstest.testframework\\2.0.0\\mstest.testframework.2.0.0.nupkg.sha512",
+    "C:\\Users\\jlane\\.nuget\\packages\\selenium.support\\3.141.0\\selenium.support.3.141.0.nupkg.sha512",
+    "C:\\Users\\jlane\\.nuget\\packages\\selenium.webdriver\\3.14.0\\selenium.webdriver.3.14.0.nupkg.sha512",
+    "C:\\Users\\jlane\\.nuget\\packages\\selenium.webdriver.geckodriver\\0.26.0.1\\selenium.webdriver.geckodriver.0.26.0.1.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1605",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Detected package downgrade: Selenium.WebDriver from 3.141.0 to 3.14.0. Reference the package directly from the project to select a different version. \r\n Assignment4 -> Selenium.Support 3.141.0 -> Selenium.WebDriver (>= 3.141.0) \r\n Assignment4 -> Selenium.WebDriver (>= 3.14.0)",
+      "libraryId": "Selenium.WebDriver",
+      "targetGraphs": [
+        ".NETFramework,Version=v4.7.2",
+        ".NETFramework,Version=v4.7.2/win",
+        ".NETFramework,Version=v4.7.2/win-x64",
+        ".NETFramework,Version=v4.7.2/win-x86"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 4</title>
+    <link rel = "stylesheet" type = "text/css" href = "Assignment4.css" />
+    <link rel="stylesheet" type="text/css" href="normalize.css">
+    <script type="text/javascript" src="Assignment4.js"></script>
+</head>
+<body>
+    <form id="form" onsubmit="return false">
+        <fieldset>
+            <legend>Information</legend>
+        <p><label class="field">Seller Name:</label> <input type="text" id="seller_name"></p>
+        <p><label class="field">Address:</label> <input type="text" id="address"></p>
+        <p><label class="field">City:</label> <input type="text" id="city"></p>
+        <p><label class="field">Phone:</label><input type="tel" id="phone"></p>
+        <p><label class="field">Email:</label><input type="email" id="email"></p>
+        <p><label class="field">Make:</label><input type="text" id="make"></p>
+        <p><label class="field">Model:</label><input type="text" id="model"></p>
+        <p><label class="field">Year:</label><input type="text" id="year"></p>
+        <p><input id="submit_button" type="submit" onclick="validateInput()"></p>
+    </fieldset>
+    </form>
+
+    <div id="contacts">
+        <fieldset>
+            <legend>Contacts</legend>
+                <ul id="contact_list">
+                </ul>
+        </fieldset>
+    </div>
+
+    <div id="links">
+        <fieldset>
+            <legend>Links</legend>
+            <ul id="links_list">
+            </ul>
+        </fieldset>
+
+    </div>
+
+    <div id="search_link">
+        <a href="search.html">Search</a>
+    </div>
+</body>
+</html>
